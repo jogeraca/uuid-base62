@@ -3,7 +3,7 @@
 // dependencies
 var uuid = require('node-uuid');
 var baseX = require('base-x');
-var base62 = baseX('0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ')
+var base62 = baseX('0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz')
 
 // expose node-uuid and baseX for convenience
 module.exports.uuid = uuid;
